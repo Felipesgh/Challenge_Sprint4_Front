@@ -11,6 +11,7 @@ export default function Header(){
           <Link to="/faq" className="hover:text-highlight">FAQ</Link>
           <Link to="/contato" className="hover:text-highlight">Contato</Link>
           <Link to="/solucao" className="hover:text-highlight">Solução</Link>
+          <Link to="/buscar-cep" className="hover:underline">Buscar CEP</Link>
         </nav>
         {}
         <div className="md:hidden">
