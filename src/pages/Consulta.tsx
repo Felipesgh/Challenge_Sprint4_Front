@@ -25,7 +25,6 @@ export default function Consultas() {
   });
   const [loading, setLoading] = useState(false);
 
-  // 🔹 Buscar consultas da API Flask
   const listarConsultas = async () => {
     try {
       const res = await apiPython.get("/consultas");
@@ -35,13 +34,11 @@ export default function Consultas() {
     }
   };
 
-  // 🔹 Atualizar campos
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setNovaConsulta((prev) => ({ ...prev, [name]: value }));
   };
 
-  // 🔹 Enviar nova consulta
   const handleSubmit = async () => {
     const { paciente_nome, paciente_cpf, medico, especialidade, data, horario, problema } = novaConsulta;
 
@@ -70,7 +67,6 @@ export default function Consultas() {
     }
   };
 
-  // 🔹 Excluir consulta
   const handleDelete = async (id: number) => {
     if (!window.confirm("Tem certeza que deseja excluir esta consulta?")) return;
     try {
@@ -89,7 +85,7 @@ export default function Consultas() {
     <section className="max-w-3xl mx-auto my-10 p-6 bg-white rounded-2xl shadow-lg">
       <h1 className="text-3xl font-bold mb-6 text-center text-blue-600">Consultas</h1>
 
-      {/* Formulário */}
+      {}
       <div className="grid gap-4 mb-8">
         <input
           name="paciente_nome"
@@ -154,7 +150,7 @@ export default function Consultas() {
         </button>
       </div>
 
-      {/* Listagem */}
+      {}
       <h2 className="text-xl font-semibold mb-3 text-gray-800">Consultas Agendadas</h2>
       <ul className="space-y-3">
         {consultas.map((c) => (

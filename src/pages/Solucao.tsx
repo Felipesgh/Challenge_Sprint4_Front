@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function Solucao(){
   return (
     <section className="max-w-4xl mx-auto my-8 px-4">
