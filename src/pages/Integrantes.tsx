@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import IntegranteCard, { type IntegranteProps } from "../components/IntegrantesCard"
 
-import ArthurImg from "../assets/Arthur.jpg"
+import RafaelImg from "../assets/rafael.jpg"
 import FelipeImg from "../assets/Felipe.png"
 
 export default function Integrantes() {
@@ -15,17 +15,13 @@ export default function Integrantes() {
         rm: "563485",
         turma: "1TDSA",
         img: FelipeImg,
-        github: "https://github.com/felipe",
-        linkedin: "https://linkedin.com/in/felipe",
       },
       {
         id: "2",
-        name: "Arthur Manso",
-        rm: "561612",
+        name: "Rafael Siqueira",
+        rm: "564900",
         turma: "1TDSA",
-        img: ArthurImg,
-        github: "https://github.com/arthur",
-        linkedin: "https://linkedin.com/in/arthur",
+        img: RafaelImg,
       },
     ])
   }, [])

@@ -10,6 +10,7 @@ import Contato from "./pages/Contato"
 import Solucao from "./pages/Solucao"
 import NotFound from "./pages/NotFound"
 import BuscarCep from "./pages/BuscarCep"
+import Consultas from "./pages/Consulta"
 
 
 export default function App(){
@@ -27,6 +28,7 @@ export default function App(){
           <Route path="/home" element={<Navigate to="/" replace />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/buscar-cep" element={<BuscarCep />} />
+          <Route path="/consultas" element={<Consultas />} />
         </Routes>
       </main>
       <Footer />

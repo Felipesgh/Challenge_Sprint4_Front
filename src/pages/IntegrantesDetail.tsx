@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from 'react-router-dom'
 
-import ArthurImg from '../assets/Arthur.jpg'
+import RafaelImg from '../assets/rafael.jpg'
 import FelipeImg from '../assets/Felipe.png'
 
 const members = [
@@ -10,17 +10,17 @@ const members = [
     rm:'563485',
     turma:'1TDSA',
     img: FelipeImg,
-    github: 'https://github.com/felipe',
-    linkedin: 'https://linkedin.com/in/felipe'
+    github: 'https://github.com/Felipesgh',
+    linkedin: 'https://www.linkedin.com/in/felipe-garcia-298741363/'
   },
   {
     id:'2',
-    name:'Arthur Manso Fernandes',
-    rm:'561612',
+    name:'Rafael Siqueira Martins',
+    rm:'564900',
     turma:'1TDSA',
-    img: ArthurImg,
-    github: 'https://github.com/arthur',
-    linkedin: 'https://linkedin.com/in/arthur'
+    img: RafaelImg,
+    github: 'https://github.com/SiqueiraMartins',
+    linkedin: 'https://www.linkedin.com/in/rafael-siqueira-martins-240a3430a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
   }
 ]
 
