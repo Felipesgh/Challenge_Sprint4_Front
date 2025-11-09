@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import IntegranteCard, { type IntegranteProps } from "../components/IntegrantesCard"
 
 import RafaelImg from "../assets/rafael.jpg"

@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 
 const faqs = [
   {q:'O que é este projeto?', a:'Uma solução que auxilia pessoas com dificuldades no uso do celular a confirmar consultas médicas.'},
